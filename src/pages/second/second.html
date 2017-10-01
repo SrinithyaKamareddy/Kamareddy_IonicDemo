@@ -1,0 +1,78 @@
+<!--
+  Generated template for the SecondPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>second</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+<h2 style="color:red;">Welcome to CHICK-FILA</h2>
+<ion-list radio-group>
+  <ion-list-header>
+    Burgers
+  </ion-list-header>
+
+  <ion-item>
+    <ion-label>Spicy</ion-label>
+    <ion-radio checked="true" value="go"></ion-radio>
+  </ion-item>
+
+  <ion-item>
+    <ion-label>Regular</ion-label>
+    <ion-radio value="rust"></ion-radio>
+  </ion-item>
+  <ion-item>
+    <ion-label> Extra pickels</ion-label>
+    <ion-toggle ></ion-toggle>
+  </ion-item>
+  
+  
+  <ion-list>
+  <ion-item>
+    <ion-label>Milkshakes n Drinks</ion-label>
+    <ion-select [(ngModel)]="Oreo" multiple="true" cancelText="Nah" okText="Okay!">
+      <ion-option value="Strawberry" selected="true">Strawberry</ion-option>
+      <ion-option value="Vanilla">Vanilla</ion-option>
+      <ion-option value="MIxed Berries" selected="true">Mixed berries</ion-option>
+      <ion-option value="Armar Parmar">Armar Parmar</ion-option>
+      <ion-option value="Regular Lemonade">Regular Lemonade</ion-option>
+      <ion-option value="Diet Lemonade">Diet Lemonade</ion-option>
+      <ion-option value="Mist twist">Mist Twist</ion-option>
+      <ion-option value="Mount N DEw">MOunt N DEw</ion-option>
+      <ion-option value="Pepsi">Pepsi</ion-option>
+      <ion-option value="Diet Pepsi">Diet Pepsi</ion-option>
+    </ion-select>
+  </ion-item>
+  <ion-fab right bottom>
+    <button ion-fab color="dark"><ion-icon name="arrow-dropleft"></ion-icon></button>
+    <ion-fab-list side="left">
+      <button ion-fab><ion-icon name="logo-facebook"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-twitter"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-vimeo"></ion-icon></button>
+      <button ion-fab><ion-icon name="logo-googleplus"></ion-icon></button>
+    </ion-fab-list>
+  </ion-fab>
+</ion-list>  
+  
+  
+
+  
+</ion-list>
+<ion-item>
+  <ion-label>Add lettuce</ion-label>
+  <ion-checkbox color="dark" checked="true"></ion-checkbox>
+</ion-item>
+
+<ion-item>
+  <ion-label>Market Slad</ion-label>
+  <ion-checkbox colr="pink"></ion-checkbox>
+</ion-item>
+</ion-content>
